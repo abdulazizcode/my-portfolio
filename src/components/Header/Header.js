@@ -1,10 +1,11 @@
 import React from "react";
+import {Link} from "react-scroll";
 
 
 
 const Header = ()=>{
     return(
-        <header>
+        <header className="header">
           <nav className="site-navigation">
             <div className="nav-container">
               <div className="brand underline">
@@ -14,9 +15,38 @@ const Header = ()=>{
                 </a>
               </div>
               <div className="menu">
-                <a href="#!">Education</a>
-                <a href="#!">Portfolio</a>
-                <a href="#!">Contact</a>
+
+                  <Link
+                    className="nav__item"
+                    activeClass="active"
+                    to="education"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration= {500}
+                 >Education </Link>
+
+     
+                  <Link
+                    className="nav__item"
+                    activeClass="active"
+                    to="skills"
+                    spy={true}
+                    smooth={true}
+                    offset={-80}
+                    duration= {500}
+                >Skills</Link>
+
+                  
+                  <Link
+                    className="nav__item"
+                    activeClass="active"
+                    to="contact"
+                    spy={true}
+                    smooth={true}
+                    offset={-90}
+                    duration= {500}
+                >Contact </Link>
               </div>
             </div>
           </nav>

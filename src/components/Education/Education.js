@@ -4,7 +4,7 @@ import React from "react";
 
 const Education = ()=>{
     return(
-        <section className="section">
+        <section className="section" id="education">
         <div className="container">
           <header className="section-header">
             <h1>Education</h1>

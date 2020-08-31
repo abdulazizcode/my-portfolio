@@ -40,7 +40,17 @@ html {
     font-weight: 700;
     text-decoration: none; }
     a:hover {
-      text-decoration: underline; }
+      text-decoration: underline; 
+  }
+  .header{
+    position: sticky;
+    top:0;
+    z-index:100;
+    background-color: white;
+  }
+  .menu .nav__item:hover{
+    cursor: pointer;
+  }
   
   .container {
     max-width: 1040px;
