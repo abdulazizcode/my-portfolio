@@ -464,4 +464,23 @@ html {
   .portfolio .card {
     overflow: hidden;
     padding: 0 0 2rem 0; }
+
+    .logo{
+      width: 100px;
+      object-fit: contain;
+      background-color: white;
+    }
   
+    @media screen and (max-width: 450px) {
+      .menu {
+        display: flex;
+      }
+      .menu .nav__item{
+        font-size: 15px;
+      }
+
+      .menu .nav__item:hover{
+        border-bottom: 1px solid black;
+      }
+  
+    }

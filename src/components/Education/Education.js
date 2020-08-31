@@ -1,7 +1,5 @@
 import React from "react";
 
-
-
 const Education = ()=>{
     return(
         <section className="section" id="education">
@@ -13,7 +11,7 @@ const Education = ()=>{
           <div className="resume">
             <div className="flex">
               <div className="resume-title">
-                <h2 className="underline-nh">BIT</h2>
+                <h2 className="underline-nh">BBIT</h2>
                 <div className="subtitle">2019 - Current</div>
               </div>
               <div className="resume-description">

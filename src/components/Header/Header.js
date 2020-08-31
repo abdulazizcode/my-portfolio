@@ -1,5 +1,6 @@
 import React from "react";
 import {Link} from "react-scroll";
+import logo from "../../img/logo.png";
 
 
 
@@ -10,8 +11,7 @@ const Header = ()=>{
             <div className="nav-container">
               <div className="brand underline">
                 <a href="#!">
-                  My
-                  <b>Portfolio</b>
+                  <img className="logo" src={logo}/>
                 </a>
               </div>
               <div className="menu">
