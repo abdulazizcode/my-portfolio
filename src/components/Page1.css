@@ -51,7 +51,9 @@ html {
   .menu .nav__item:hover{
     cursor: pointer;
   }
-  
+  .menu > .active {
+    border-bottom: 1px solid #333;
+}
   .container {
     max-width: 1040px;
     padding: 0 1rem;
