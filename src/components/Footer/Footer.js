@@ -28,16 +28,16 @@ const Footer = () =>{
                             <a href="https://www.facebook.com/abdulaziz.abdurasul">
                             <i className="fa fa-rss fa-2x" />
                             </a>
-                            <a href="https://twitter.com/abdusamadzoda" target="_blank">
+                            <a href="https://twitter.com/abdusamadzoda">
                             <i className="fa fa-twitter fa-2x" />
                             </a>
-                            <a href="https://github.com/abdulazizcode" target="_blank">
+                            <a href="https://github.com/abdulazizcode">
                             <i className="fa fa-github fa-2x" />
                             </a>
-                            <a href="https://stackoverflow.com/users/13966611/abdusanadzoda-abdulaziz" target="_blank">
+                            <a href="https://stackoverflow.com/users/13966611/abdusanadzoda-abdulaziz">
                             <i className="fa fa-stack-overflow fa-2x" />
                             </a>
-                            <a href="https://www.linkedin.com/in/abdusamadzoda-abdulaziz/" target="_blank">
+                            <a href="https://www.linkedin.com/in/abdusamadzoda-abdulaziz/" >
                             <i className="fa fa-linkedin-square fa-2x" aria-hidden="true" />
                             </a>
                         </div>
